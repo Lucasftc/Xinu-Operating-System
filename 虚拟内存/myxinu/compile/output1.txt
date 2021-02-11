@@ -1,0 +1,161 @@
+number of free frame: 32398
+
+finish vminit
+
+Xinu for QEMU -- version #78  (lucas)  Fri Nov 20 03:32:21 PST 2020
+
+
+finish sysinit
+
+     32398 pages of free memory
+
+     61773 bytes of Xinu code.
+
+           [0x00100000 to 0x0010F14C]
+
+    258156 bytes of data.
+
+           [0x00112100 to 0x0015116B]
+
+
+before resched, currpid:0
+
+finish enable
+
+after call allocstk
+
+saddr: 0xFF3FFFFC
+
+finish create
+
+enter resume
+
+enter ready
+
+finish insert,prio is 20
+
+before resched, currpid:0
+
+enter start up
+
+after call allocstk
+
+saddr: 0xFF3FFFFC
+
+before resched, currpid:1
+
+finish create
+
+enter resume
+
+enter ready
+
+finish insert,prio is 20
+
+before resched, currpid:1
+
+enter main
+
+after call allocstk
+
+saddr: 0xFF3FFFFC
+
+before resched, currpid:2
+
+resched to 1
+
+release 0x00166000
+
+release 0x00167000
+
+release 0x00168000
+
+release 0x00169000
+
+release 0x0016A000
+
+release 0x0016B000
+
+release 0x0016C000
+
+release 0x0016D000
+
+release 0x0016E000
+
+release 0x0016F000
+
+release 0x00170000
+
+release 0x00171000
+
+release 0x00172000
+
+release 0x00173000
+
+release 0x00174000
+
+release 0x00175000
+
+release 0x0015C000
+
+finish deallocvm
+
+before resched, currpid:1
+
+resched to 2
+
+finish create
+
+enter resume
+
+enter ready
+
+finish insert,prio is 20
+
+before resched, currpid:2
+
+test1: 0xFF7FFFE8
+
+release 0x0019A000
+
+release 0x00190000
+
+finish deallocvm
+
+before resched, currpid:3
+
+resched to 2
+
+after call allocstk
+
+saddr: 0xFF3FFFFC
+
+before resched, currpid:2
+
+finish create
+
+enter resume
+
+enter ready
+
+finish insert,prio is 20
+
+before resched, currpid:2
+
+test2: 0xFF7FFFE8
+
+release 0x001A4000
+
+release 0x0019A000
+
+finish deallocvm
+
+before resched, currpid:4
+
+resched to 2
+
+
+
+All user processes have completed.
+
+

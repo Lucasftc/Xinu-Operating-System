@@ -1,0 +1,7 @@
+set disassembly-flavor intel
+target remote:1234
+file xinu.elf
+b testfunc
+c
+disp /5i $pc
+disp /x $cr3
